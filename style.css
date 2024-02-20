@@ -1,0 +1,277 @@
+nav {
+    display: flex;
+    flex-shrink: 0;
+    flex: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    border: 1px solid #000;
+}
+nav div {
+    border-radius: 5px;
+    background: #F25757;
+    width: 164px;
+    height: 65px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+nav img {
+    width: 253px;
+    height: 62px;
+    flex-shrink: 0;
+}
+h4 {
+    color: #FFF;
+    font-family: Assistant;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+body h2 {
+    color: #FFF;
+    font-family: Assistant;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main div div h5{
+    font-size: 40px;
+}
+
+main div div h6 {
+    font-size: 24px;
+}
+
+
+
+main div div p {
+    width: 669px;
+    height: 225px;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;      
+    justify-content: center;
+    float: right;          
+    padding-right: 2%;
+}
+
+table {
+    border: 2px solid rgb(200,200,200);
+    border-collapse:   collapse;
+    letter-spacing: 2px;
+    width: 100%;
+    text-align: center;
+}
+
+thead {
+    width: 100%;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #1C71A1;
+}
+thead tr {
+    height: 18px;
+    flex-shrink: 0;
+
+    color: #FFF;
+
+    font-family: Assistant;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+tbody {
+    color: #000;
+    font-family: Assistant;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #FFF;
+}
+
+section article {
+    display: block;
+    flex: wrap;
+    padding: 1%;
+    border: 1px solid #000;
+    background-color: #FFF;
+
+}
+
+body div  h1{
+    width: 1000px;
+}
+
+bdoy div form {
+    width: 400px;
+}
+
+.spflex {
+    display: flex;
+    flex: wrap;
+    padding: 1%;
+    border: 1px solid #000;
+    background-color: #FFF;
+    flex-direction:column;
+
+}
+
+.hol {
+    border-radius: 5px;
+    background: #F25757;
+    width: 304px;
+    height: 55px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.divider {
+    width: 100%;
+    height: 403px;
+    flex-shrink: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    position: relative;
+}
+
+.split {
+    display: flex;
+    flex: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+
+}
+
+.desc {
+    top: 0;
+    padding-left: 5%;
+    padding-top: 0px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 70%;
+    height: 568px;
+    background-color: #E7E991;
+    stroke-width: 1px;
+    stroke: #0000;
+    border: 1px solid #000;
+}
+
+.kid {
+    background-color: #FEFFDB;
+    width: 30%;
+    height: 564px;;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.kid p {
+    text-align: center;
+    color: #000;
+    font-family: Assistant;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80%;
+}
+
+.kid img {
+    transform: scale(0.7);
+    width: 270px;
+    height: 251px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+}
+
+.trgrey {
+    background: #D9D9D9;
+}
+
+.blend {
+    mix-blend-mode: multiply;
+}
+
+.backkid1 {
+    width: 100%;
+    height: 403px;
+    background-image: url("https://www.figma.com/file/6XuddSmAnQPrkQTSABANTL/image/9474361f6698015c65283ef5fcae97e30da1b5b2");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.backkid2 section {
+    width: 150px;
+    margin-left: 75px;
+    justify-items: right;
+    align-items: right;
+    align-content: right;
+    display: flex;
+    flex-direction: row;
+    bottom: 0p0;
+    position: relative;
+}
+
+
+
+.backkid2{
+    width: 100%;
+    height: 510px;
+    background-image: url("https://www.figma.com/file/6XuddSmAnQPrkQTSABANTL/image/2cb7509b93989650c158986f35308f84889feb66");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-color: #FFF;
+    font-size: 10px;
+
+}
+
+.test img {
+    width: 116px;
+    height: 118px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #FFF;
+    border-radius: 100px;
+}
+.blue{
+    background-color: #1C71A1;
+    height: auto;
+}
+
+.half {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+a:link {
+    text-decoration: none;
+}
+
