@@ -104,7 +104,7 @@ tbody {
     background-color: #FFF;
 }
 
-section article {
+body div div section article {
     display: block;
     flex: wrap;
     padding: 1%;
@@ -115,20 +115,83 @@ section article {
 
 body div  h1{
     width: 1000px;
+    color:#F25757;
+    font-family: Assistant;
+    font-style: normal;
 }
 
-bdoy div form {
+body div form {
     width: 400px;
+}
+
+footer {
+    height: 450px;
+    width: 1450px;
+    border: 1px solid #000;
+    background-color: #030303;
+}
+
+footer div {
+    width:100%;
+    height: 350px;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+}
+
+footer div img {
+    transform: scale(0.8);
+    height: 350px;
+}
+
+footer div section  {
+    background-color: #000000;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+    color: #BDBDBD;
+    font-family: Assistant;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 50px;
+    margin-right: 2em;
+}
+
+footer div section article {
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 300px;
+    padding-top: 10%;
+}
+footer div section article p {
+    color:#FFFCFC;
+    height: 300px;
+    text-wrap: wrap;
+    font-size: 20px;
+}
+
+footer p {
+    color: #BDBDBD;
 }
 
 .spflex {
     display: flex;
     flex: wrap;
     padding: 1%;
+    width: 695px;
     border: 1px solid #000;
-    background-color: #FFF;
+    background-color: #CECECE;
     flex-direction:column;
-
 }
 
 .hol {
@@ -221,7 +284,7 @@ bdoy div form {
 .backkid1 {
     width: 100%;
     height: 403px;
-    background-image: url("https://www.figma.com/file/6XuddSmAnQPrkQTSABANTL/image/9474361f6698015c65283ef5fcae97e30da1b5b2");
+    background-image: url("https://s3-alpha-sig.figma.com/img/9474/361f/6698015c65283ef5fcae97e30da1b5b2?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hp667DmqFtZbJOkv6orB5tZuRtEbhRYH~gMPY9OJyroU5Ujm0VURt4lI80sH9Kj30pxmDrHozSKSBMHrqpXbSWOAbZWb89JG-OYVHGWgaQIe~HtheaaoXllajzuK6bYIV2PXa~9SWB7oCxdjfm18~3rk2DyIDFxzHrjLE0oISdCKaA9yOT1Dc7vviLVmzs2~vvSNp85wp58HfIShYYRbq65kjTYEP29CcnbP~STOSDdxlSep6Vy2qL8Fmphe-vI6vHcJGXoLnAWnE4sqL3dWSq91Cdt4yzV5iMWpNg3vfx025bqiXrwTwq8iGlPuEpCIdSXOpPRVaEKgVNRNlU5jKA__");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -244,7 +307,7 @@ bdoy div form {
 .backkid2{
     width: 100%;
     height: 510px;
-    background-image: url("https://www.figma.com/file/6XuddSmAnQPrkQTSABANTL/image/2cb7509b93989650c158986f35308f84889feb66");
+    background-image: url("https://s3-alpha-sig.figma.com/img/2cb7/509b/93989650c158986f35308f84889feb66?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Xecio7WMv4ObmbRInMxhK4Ib5Q73HEQXmEN1HxGhxHFJN8xWDUhTzqolP303GZqEqNq6KF5VvSHcNk2druOyQmPqi6ZNro65VyVMExu~0GiR0yHzDawpjMtoFkkjgIObV1lKOOvzfVyfHS1TVmC~CoszsanSxOhC1TFECSkDZCrdYMaUVmXhD~FBFhM54WCSWlaQKyKIfQmHKICsVDolUrateOICC6V1farTPPFf33D7QnYNqVe2DC1lktKO3QQN60bnGQaLfhm1vTODamjjaB~KYy~HcDzqyejF6P5-Vo16EP92FD~qvmKClH2fRMglUwNnDFXtKMqn1XvC9-HYJg__");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -273,5 +336,11 @@ bdoy div form {
 }
 a:link {
     text-decoration: none;
+    color: #000000;
+}
+
+a:visited {
+    color: inherit;
+    text-transform: none;
 }
 
