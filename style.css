@@ -126,7 +126,7 @@ body div form {
 
 footer {
     height: 450px;
-    width: 1450px;
+    width: 100%;
     border: 1px solid #000;
     background-color: #030303;
 }
@@ -188,7 +188,7 @@ footer p {
     display: flex;
     flex: wrap;
     padding: 1%;
-    width: 695px;
+    width: 100%;
     border: 1px solid #000;
     background-color: #CECECE;
     flex-direction:column;
@@ -336,9 +336,12 @@ footer p {
 }
 a:link {
     text-decoration: none;
-    color: #000000;
+    color: inherit;
 }
 
+a:link footer section article p {
+    color:#FFFCFC;
+}
 a:visited {
     color: inherit;
     text-transform: none;
