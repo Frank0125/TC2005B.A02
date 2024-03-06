@@ -511,3 +511,83 @@ a:visited {
     padding-left: 30rem;
     font-size: 1rem;
 }
+
+@media screen and (max-width: 680px) {
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    header nav {
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    header nav h4 {
+        padding: 1rem 0;
+    }
+
+    header img {
+        width: 100%;
+        height: auto;
+    }
+
+    main div div p {
+        width: auto;
+        text-align: left;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .local input {
+        width: 100%;
+    }
+
+    .spflex {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .backkid1,
+    .backkid2 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .backkid1 h1 {
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .backkid2 p {
+        font-size: 0.8rem;
+    }
+
+    .backkid2 div {
+        width: 100%;
+        padding-top: 2rem;
+        padding-left: 0;
+    }
+
+    .backkid2 div strong {
+        font-size: 2rem;
+    }
+
+    .test img {
+        width: 6rem;
+        height: auto;
+    }
+
+    .card {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    #rights {
+        padding-left: 1rem;
+    }
+}
